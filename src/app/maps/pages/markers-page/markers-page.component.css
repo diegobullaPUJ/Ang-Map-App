@@ -1,0 +1,35 @@
+
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.addMarkers {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.list-group{
+  position:fixed;
+  top: 20px;
+  right: 20px;
+}
+
+li{
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.deleteButton {
+  color: white;
+  border: none;
+}
+
+.material-symbols-outlined{
+  font-size: 18px;
+  margin-left: 10px;
+}

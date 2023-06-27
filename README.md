@@ -1,27 +1,32 @@
 # MapsApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+## Ejecutar el proyecto de manera local
 
-## Development server
+Para que la aplicación funcione se requiere una api_key valida de mapBox
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clonar el proyecto. 
+2. Entrar al archivo .env.template colocar el api_key valido en la variable ```MAPBOX_KEY``` y renombrar el archivo a .env.
+3. Ejecutar ```npm run start``` para que el proyecto se ejecute con las respectivas variables de entorno.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Descropción del proyecto
 
-## Build
+Aplicación de mapas en Angular ( MAPBOX ) donde abordaremos los siguientes temas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Manejo de librerías escritas en JavaScript en TypeScript
+2. Uso de Mapas basados en Mapbox (el API es similar a la de Google Maps)
+3. Marcadores en mapbox
+4. Eventos
+5. FlyTo
+6. Coordenadas geográficas
+7. Componentes para re-utilización de mapas
+8. Mantener objetos de forma persistente
+9. @types
+10. Zoom
+11. Range
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
