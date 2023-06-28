@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
-import { Map } from 'mapbox-gl';
+import { LngLat, Map } from 'mapbox-gl';
 
 @Component({
   selector: 'app-maps-full-screen',
@@ -9,6 +9,7 @@ import { Map } from 'mapbox-gl';
 export class FullScreenPageComponent implements AfterViewInit, OnDestroy{
 
   public map?: Map;
+  public currentLngLat: LngLat = new LngLat( -74.13188630362463, 4.656355543001979 );
 
   @ViewChild('map')
   public divMap!: ElementRef;
@@ -20,7 +21,7 @@ export class FullScreenPageComponent implements AfterViewInit, OnDestroy{
     this.map = new Map({
       container: this.divMap.nativeElement, // container ID
       style: 'mapbox://styles/mapbox/streets-v12', // style URL
-      center: [-74.5, 40], // starting position [lng, lat]
+      center: this.currentLngLat, // starting position [lng, lat]
       zoom: 9, // starting zoom
     });
   }
