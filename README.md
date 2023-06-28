@@ -24,6 +24,7 @@ Aplicación de mapas en Angular ( MAPBOX ) donde abordaremos los siguientes tema
 9. @types
 10. Zoom
 11. Range
+12. Componentes standAlone (Que son, para que sirven como se usan y como conectarlos entre si)
 
 
 
