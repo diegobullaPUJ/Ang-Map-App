@@ -9,7 +9,7 @@ Para que la aplicación funcione se requiere una api_key valida de mapBox
 3. Ejecutar ```npm run start``` para que el proyecto se ejecute con las respectivas variables de entorno.
 
 
-## Descropción del proyecto
+## Descripción del proyecto
 
 Aplicación de mapas en Angular ( MAPBOX ) donde abordaremos los siguientes temas.
 
